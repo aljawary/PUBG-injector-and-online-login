@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:gravity="center_horizontal"
+	android:orientation="vertical"
+	android:background="#ff313241">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="20dp"/>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="ZLX PROJECT V2"
+		android:textColor="#FFFFFFFF"
+		android:textSize="20sp"
+		android:textStyle="bold"/>
+
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="JOIN TELEGRAM: @ZLXHZ"
+			android:textColor="#FFFFFFFF"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="5dp"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:gravity="center"
+		android:paddingLeft="15dp"
+		android:paddingRight="15dp"
+		android:orientation="horizontal"
+		android:background="#ff313241"
+		android:layout_marginTop="10dp">
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="120dp"
+			android:text="Start"
+			android:layout_weight="1"
+			android:padding="35dp"
+			android:backgroundTint="#23BDFA"
+			android:drawableTop="@drawable/ic_start"
+			android:id="@+id/Start_btn"
+			android:textColor="#FFFFFFFF"
+			android:textStyle="bold"
+			android:gravity="center"/>
+
+		<LinearLayout
+			android:layout_width="10dp"
+			android:layout_height="wrap_content"
+			android:alpha="0"/>
+
+		<Button
+			android:layout_width="match_parent"
+			android:layout_height="120dp"
+			android:text="Stop"
+			android:padding="35dp"
+			android:layout_weight="1"
+			android:backgroundTint="#FF4132"
+			android:drawableTop="@drawable/ic_stop"
+			android:id="@+id/Stop_btn"
+			android:textColor="#FFFFFFFF"
+			android:textStyle="bold"
+			android:gravity="center"/>
+
+	</LinearLayout>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="1sp"
+		android:background="#FF5A5A5A"
+		android:layout_marginTop="10dp"
+		android:layout_marginBottom="2dp"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Telegram Contact"
+		android:drawableLeft="@drawable/ic_message"
+		android:drawablePadding="10dp"
+		android:id="@+id/telegram"
+		android:textColor="#FFFFFFFF"
+		android:background="@drawable/bg_logout"
+		android:textAllCaps="false"
+		android:paddingLeft="5dp"
+		android:gravity="left|fill_vertical"
+		android:textAlignment="textStart"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="1sp"
+		android:background="#FF5A5A5A"
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="2dp"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Telegram Channel"
+		android:drawableLeft="@drawable/ic_message"
+		android:drawablePadding="10dp"
+		android:id="@+id/telegramch"
+		android:textColor="#FFFFFFFF"
+		android:background="@drawable/bg_logout"
+		android:textAllCaps="false"
+		android:paddingLeft="5dp"
+		android:gravity="left|fill_vertical"
+		android:textAlignment="textStart"/>
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="1sp"
+		android:background="#FF5A5A5A"
+		android:layout_marginTop="2dp"
+		android:layout_marginBottom="2dp"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Logout"
+		android:drawableLeft="@drawable/ic_logout"
+		android:drawablePadding="10dp"
+		android:id="@+id/logout_btn"
+		android:textColor="#FFFF0000"
+		android:background="@drawable/bg_logout"
+		android:textAllCaps="false"
+		android:paddingLeft="5dp"
+		android:gravity="left|fill_vertical"
+		android:textAlignment="textStart"/>
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="bottom|center_horizontal"
+		android:orientation="vertical">
+
+		<TextView
+			android:id="@+id/powered"
+			android:layout_width="150dp"
+			android:layout_height="wrap_content"
+			android:layout_marginTop="50dp"
+			android:gravity="center_vertical|left"
+			android:paddingLeft="10dp"
+			android:text="Powered by"
+			android:textColor="#FFFFFF"
+			android:textSize="15dp"
+			android:textStyle="italic" />
+
+		<ImageView
+			android:id="@+id/authorlogo"
+			android:layout_width="150dp"
+			android:layout_height="50dp"
+			android:layout_marginBottom="50dp"
+			android:src="@drawable/zeclay_icon" />
+
+	</LinearLayout>
+	
+	
+</LinearLayout>
+

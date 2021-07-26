@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#FF313241">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:gravity="center"
+		android:orientation="vertical"
+		android:padding="10dp">
+
+		<ImageView
+			android:layout_width="170dp"
+			android:layout_height="170dp"
+			android:src="@drawable/ic_launcher"
+			android:layout_marginBottom="73dp"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="ZLX - LOGIN"
+			android:textColor="#FFFFFFFF"
+			android:textSize="20sp"
+			android:textStyle="bold"
+			android:gravity="center"
+			android:layout_marginBottom="15dp"/>
+
+		<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:text="Hello, please login first before play"
+			android:textColor="#FFFFFFFF"
+			android:textStyle="bold"/>
+
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center"
+			android:orientation="vertical"
+			android:layout_marginTop="0dp"
+			android:layout_marginBottom="100dp"
+			android:paddingLeft="40dp"
+			android:paddingRight="40dp">
+
+			<EditText
+				android:id="@+id/mail"
+				android:paddingLeft="5dp"
+				android:paddingTop="5dp"
+				android:paddingBottom="5dp"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:drawableLeft="@drawable/ic_account"
+				android:drawablePadding="12dp"
+				android:hint="Username..."
+				android:background="@drawable/bg_login_edittext"
+				android:singleLine="true"
+				android:textColorHint="#7fffffff"
+				android:ems="10"
+				android:textColor="#FFFFFFFF"
+				android:layout_marginTop="13dp"/>
+
+			<EditText
+				android:inputType="textPassword"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dp"
+				android:paddingTop="5dp"
+				android:paddingBottom="5dp"
+				android:drawableLeft="@drawable/ic_lock"
+				android:drawablePadding="12dp"
+				android:hint="Password..."
+				android:textColorHint="#7fffffff"
+				android:background="@drawable/bg_login_edittext"
+				android:id="@+id/pass"
+				android:layout_marginTop="8dp"
+				android:layout_marginBottom="10dp"
+				android:singleLine="true"
+				android:ems="10"
+				android:textColor="#FFFFFFFF"/>
+
+			<CheckBox
+				android:id="@+id/rememberme"
+				android:gravity="center_vertical|left"
+				android:text="Remember me"
+				android:textColor="#FFFFFFFF"
+				android:checked="false"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+
+			<Button
+				android:id="@+id/init"
+				android:backgroundTint="#666666"
+				android:text="Login"
+				android:textColor="#FFFFFFFF"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"/>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

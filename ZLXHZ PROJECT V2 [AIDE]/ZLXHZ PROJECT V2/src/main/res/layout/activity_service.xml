@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content">
+
+	<RelativeLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:id="@+id/layout_view">
+
+		<RelativeLayout
+			android:orientation="vertical"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:id="@+id/layout_icon_control_view"
+			android:visibility="gone">
+
+			<ImageView
+				android:layout_width="60dp"
+				android:layout_height="60dp"
+				android:src="@drawable/ic_logo"
+				android:id="@+id/imageview_control"/>
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="300dp"
+			android:layout_height="350dp"
+			android:id="@+id/layout_main_view"
+			android:alpha="1"
+			android:visibility="visible">
+
+			<RelativeLayout
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:background="#3A5263">
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="ZLXHZ PROJECT V2"
+					android:textAppearance="?android:attr/textAppearanceMedium"
+					android:textStyle="bold"
+					android:layout_centerVertical="true"
+					android:textColor="#FFFFFFFF"
+					android:layout_margin="10dp"/>
+
+				<LinearLayout
+					android:clickable="true"
+					android:focusable="true"
+					android:foreground="?android:attr/selectableItemBackground"
+					android:orientation="vertical"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+					android:layout_centerVertical="true"
+					android:gravity="center"
+					android:padding="5dp"
+					android:id="@+id/layout_close_main_view">
+
+					<ImageView
+						android:layout_width="35dp"
+						android:layout_height="35dp"
+						android:src="@drawable/ic_close"/>
+
+				</LinearLayout>
+
+			</RelativeLayout>
+
+               <LinearLayout
+						android:orientation="vertical"
+						android:layout_width="match_parent"
+						android:background="#FFFFFF"
+						android:layout_height="0.5dp"/>
+
+			<LinearLayout
+				android:orientation="vertical"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+		        android:background="#FF555F6B"
+				android:visibility="visible"
+				android:gravity="center">
+
+					<LinearLayout
+						android:orientation="horizontal"
+						android:layout_width="match_parent"
+						android:gravity="center"
+						android:layout_height="wrap_content">
+
+						<ImageView
+							android:id="@+id/menu_1"
+							android:layout_width="50dp"
+							android:layout_height="40dp"
+							android:padding="1dp"
+							android:layout_weight="1"
+							android:gravity="center"
+							android:src="@drawable/xview"
+							android:background="#00000000"/>
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="0.1dp"
+							android:background="#FFFFFF"
+							android:layout_height="50dp"/>
+
+						<ImageView
+							android:id="@+id/menu_2"
+							android:layout_width="50dp"
+							android:layout_height="40dp"
+							android:padding="1dp"
+							android:layout_weight="1"
+							android:gravity="center"
+							android:src="@drawable/xweapon"
+							android:background="#00000000"/>
+
+					</LinearLayout>
+
+               <LinearLayout
+						android:orientation="vertical"
+						android:layout_width="match_parent"
+						android:background="#FFFFFF"
+						android:layout_height="0.5dp"/>
+						
+				<ScrollView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+					<LinearLayout
+						android:orientation="vertical"
+						android:id="@+id/layout_menu1"
+						android:visibility="visible"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:paddingRight="6dp"
+							android:paddingLeft="6dp"
+							android:paddingTop="5dp"
+							android:paddingBottom="5dp">
+
+							<Switch
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="Bypass Logo Tencent"
+								android:textColor="#FFFFFFFF"
+								android:id="@+id/X1"
+								android:layout_marginTop="5dp"/>
+
+							<Switch
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="Bypass Lobby"
+								android:textColor="#FFFFFF"
+								android:layout_marginTop="10dp"
+								android:id="@+id/X2"/>
+
+							<LinearLayout
+								android:orientation="horizontal"
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:padding="0dp"
+								android:layout_marginTop="10dp">
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="Wide View:"
+									android:textColor="#FFFFFFFF"/>
+
+								<SeekBar
+									android:layout_width="match_parent"
+									android:layout_height="wrap_content"
+									android:layout_weight="1.0"
+									android:layout_marginRight="10dp"
+									android:min="0"
+									android:max="5"
+									android:id="@+id/seekbar_wideview"/>
+
+								<TextView
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="0"
+									android:textColor="#FFFFFFFF"
+									android:id="@+id/textview_wideview"/>
+
+							</LinearLayout>
+
+
+							<Switch
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="Night Mode"
+								android:textColor="#FFFFFFFF"
+								android:id="@+id/X6"
+								android:layout_marginTop="10dp"/>
+
+							<Switch
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="Remove Fog"
+								android:textColor="#FFFFFFFF"
+								android:id="@+id/X7"
+								android:layout_marginTop="10dp"/>
+
+							<Switch
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="Remove Grass(Turn On At Lobby)"
+								android:textColor="#FFFFFFFF"
+								android:id="@+id/X8"
+								android:layout_marginTop="10dp"/>
+
+							<Switch
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="Black Sky"
+								android:textColor="#FFFFFFFF"
+								android:id="@+id/X9"
+								android:layout_marginTop="10dp"/>
+
+							<Button
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="FLASH V1 OFF"
+								android:layout_marginTop="10dp"
+								android:id="@+id/X14"/>
+
+							<Button
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="FLASH V2 OFF"
+								android:layout_marginTop="10dp"
+								android:id="@+id/X15"/>
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</ScrollView>
+
+<ScrollView
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content">
+
+              <LinearLayout
+						android:orientation="vertical"
+						android:id="@+id/layout_menu2"
+						android:visibility="visible"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content">
+
+						<LinearLayout
+							android:orientation="vertical"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:paddingRight="6dp"
+							android:paddingLeft="6dp"
+							android:paddingTop="5dp"
+							android:paddingBottom="5dp">
+								
+						<Switch
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="Aimbot"
+								android:textColor="#FFFFFFFF"
+								android:id="@+id/X5"
+								android:layout_marginTop="10dp"/>
+							
+
+                       <Switch
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="Small Croshair"
+								android:textColor="#FFFFFFFF"
+								android:id="@+id/X3"
+								android:layout_marginTop="10dp"/>
+
+							<TextView
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:text="Reduce Recoil:"
+								android:layout_marginTop="10dp"
+								android:textColor="#FFFFFFFF"/>
+
+							<RadioGroup
+								android:orientation="vertical"
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:id="@+id/reducerecoil">
+
+								<RadioButton
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="Normal"
+									android:buttonTint="#FF000D"
+									android:id="@+id/ROFF"
+									android:textColor="#FFCBCBCB"/>
+
+								<RadioButton
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="Less Recoil"
+									android:buttonTint="#FFD500"
+									android:textColor="#FFCBCBCB"
+									android:id="@+id/RLESS"/>
+
+								<RadioButton
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:text="No Recoil"
+									android:buttonTint="#18FB00"
+									android:textColor="#FFCBCBCB"
+									android:id="@+id/RFULL"/>
+
+							</RadioGroup>
+							
+							<Switch
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="Auto Headshot High(Ban)"
+								android:textColor="#FFFFFFFF"
+								android:id="@+id/X4H"
+								android:layout_marginTop="10dp"/>
+
+							<Switch
+								android:layout_width="match_parent"
+								android:layout_height="wrap_content"
+								android:text="Auto Headshot Low"
+								android:textColor="#FFFFFFFF"
+								android:id="@+id/X4L"
+								android:layout_marginTop="10dp"/>
+							
+
+						</LinearLayout>
+
+					</LinearLayout>
+
+				</ScrollView>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+	</RelativeLayout>
+
+</FrameLayout>
+

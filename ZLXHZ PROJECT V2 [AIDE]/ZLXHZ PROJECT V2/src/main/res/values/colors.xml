@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff313241</color>
+    <color name="colorPrimaryDark">#ff313241</color>
+    <color name="colorAccent">#008fff</color>
+    <color name="white">#FFFFFF</color>
+    <color name="light">#FF717075</color> 
+    <color name="black">#FF000000</color> 
+    <color name="green">#63c3a8</color>   
+    <color name="atropurpureus">#FF2A364C</color>  
+</resources>
+

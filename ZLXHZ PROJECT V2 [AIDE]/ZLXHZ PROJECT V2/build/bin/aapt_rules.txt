@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:37
+-keep class com.zlxhz.freeproject.FloatingActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:34
+-keep class com.zlxhz.freeproject.LoginActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:35
+-keep class com.zlxhz.freeproject.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class com.zlxhz.freeproject.SplashActivity { <init>(...); }
+
