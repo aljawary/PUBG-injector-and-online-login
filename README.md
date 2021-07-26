@@ -1,6 +1,6 @@
 **Welcome to my Repo!**
 
-# Quick links how to mod a il2cpp
+# Quick links for noobs like u and me 😑
 - [Prerequisites](https://github.com/LGLTeam/Android-Mod-Menu/blob/master/README.md#prerequisites)
 - [What you need](#what-you-need)
 - [Download/clone](#downloadclone)
