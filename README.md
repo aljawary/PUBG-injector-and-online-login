@@ -1,4 +1,4 @@
-**Welcome to my Repo!**
+# Welcome to my Repo!
 
 # Quick links for noobs like u and me 😑
 - [Prerequisites](https://github.com/LGLTeam/Android-Mod-Menu/blob/master/README.md#prerequisites)
