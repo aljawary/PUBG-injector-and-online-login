@@ -5,7 +5,7 @@ Simple pubg m injector made by Java and c++ it have beatiful ui inside
 
 Preview:
 
-![](https://prnt.sc/1gdwnga)
+![](https://prnt.sc/1gdwnga)bzbx
 
 # Note
 * Stealer enjoy copy paster 
