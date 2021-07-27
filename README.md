@@ -1,7 +1,7 @@
 **Welcome to my Repo!**
 
 # Introduction
-Simple pubg m injector made by Java and c++ it have beatiful ui inside 
+Simple pubg m injector made from Java and c++ it have beatiful ui inside 
 
 Preview:
 
